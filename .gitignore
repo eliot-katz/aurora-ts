@@ -1,0 +1,36 @@
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Data / Artifacts ---
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.h5
+*.pkl
+*.joblib
+
+# --- Models / Logs ---
+models/
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+
+# --- Reports build artifacts ---
+reports/*.pdf
